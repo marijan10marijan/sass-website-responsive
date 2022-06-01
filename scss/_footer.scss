@@ -1,0 +1,47 @@
+@use 'variables' as *;
+
+// FOOTER
+
+.footer {
+    padding: 5rem 0 3.5rem;
+    width: 100%;
+    background-color: $clr-yellow;
+
+
+    .left-box {
+        color: white;
+
+        .big-p {
+            text-align: left;
+            font-size: 3rem;
+            text-transform: $uppercase;
+            font-weight: 600;
+        }
+
+        .small-p {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .right-box {
+        .btn {
+            border: 1px solid white;
+            background-color: transparent;
+            padding: .8rem 2.2rem;
+            text-transform: $uppercase;
+
+            &:hover {
+                background-color: white;
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.4rem;
+        color: white;
+    }
+}

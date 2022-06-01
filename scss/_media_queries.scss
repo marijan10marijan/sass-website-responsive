@@ -1,0 +1,182 @@
+// FIRST MEDIA QUERY
+
+@media (max-width:900px) {
+
+    // HEADER
+    #header {
+        padding: 4rem 0;
+
+        .img-box {
+            display: none;
+        }
+    }
+
+    // SECTION1
+    .section {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+
+            .box-1 {
+                width: 75%;
+                padding-bottom: 0;
+                text-align: center;
+
+                .yellow-paragraf {
+                    text-align: center;
+                }
+
+                .line {
+                    margin: 1rem auto;
+                }
+            }
+
+            .box-2 {
+                width: 95%;
+            }
+        }
+    }
+
+
+    // SECTION2
+    .container-2 {
+        flex-direction: column;
+    }
+
+    // SERVICES_SECTION
+    .section {
+        .grid-container {
+            grid-template-columns: repeat(2, minmax(240px, 1fr));
+        }
+    }
+
+    // PORTFOLIO SECTION
+    .portfolio-section {
+        .wrapper {
+            width: 60%;
+
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+
+
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    // FOOTER
+    .footer {
+        .container {
+            flex-direction: column;
+            margin-bottom: 2.5rem;
+
+            .big-p {
+                text-align: left;
+            }
+
+            .small-p {
+                text-align: left;
+                margin-bottom: 2rem;
+            }
+
+        }
+    }
+}
+
+// SECOND MEDIA QUERY
+
+@media (max-width:580px) {
+
+    // HEADER
+    #header {
+        .description {
+            width: 95%;
+            margin: auto;
+
+            .yellow-paragraf {
+                font-size: 1.2rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .btn-container {
+                width: 100%;
+
+                .btn-1 {
+                    margin-right: 1.5rem;
+                    padding: .6rem 1rem;
+                }
+            }
+        }
+    }
+
+    // SECTION1
+    .section {
+        .container {
+            .box-1 {
+                width: 90%;
+                margin: 0 auto;
+
+                .yellow-paragraf {
+                    font-size: 1.2rem;
+                }
+
+                h2 {
+                    font-size: 1.8rem;
+                }
+            }
+
+        }
+    }
+
+
+    // SERVICES_SECTION
+    .section {
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    // PORTFOLIO SECTION
+    .portfolio-section {
+        .wrapper {
+            width: 90%;
+
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+
+
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+// FOOTER
+.footer {
+    .left-box {
+
+        .big-p {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .small-p {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+    }
+
+    .right-box {
+        margin: 0 auto;
+    }
+}

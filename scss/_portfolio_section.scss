@@ -1,0 +1,48 @@
+@use 'variables' as *;
+
+// PORTFOLIO SECTION
+
+.portfolio-section {
+    width: 100%;
+    background-color: #333;
+    padding-top: 5rem;
+
+    .wrapper {
+        width: 50%;
+        margin: 0 auto;
+
+        .yellow-paragraf {
+            color: $clr-yellow;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: .8rem;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            margin-bottom: .8rem;
+        }
+
+        .line-middle {
+            margin: 0 auto 2rem;
+        }
+    }
+
+    .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+
+        img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+    }
+}
