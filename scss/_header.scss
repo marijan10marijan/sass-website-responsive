@@ -2,6 +2,10 @@
 
 // HEADER
 
+html{
+    scroll-behavior: smooth;
+}
+
 #header {
     background: url('../images/construction.png');
     background-position: center;
